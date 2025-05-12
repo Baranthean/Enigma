@@ -17,6 +17,7 @@ while i <= 3:
         if wurf !=6:
             i=i+1
     if i==3 and wurf==6:
+        print ("Keine Würfe mehr!")
         break
 if i>3:
     print("Keine Würfe mehr!")
