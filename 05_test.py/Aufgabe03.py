@@ -1,3 +1,4 @@
+import random
 SpielerBank = [random(0,250)]
 while len(SpielerBank) >=50:
     Zahlung = input("Wollen Sie zahlen?")
@@ -21,7 +22,7 @@ while len(SpielerBank) >=50:
         if i and k > 3:
             print("Du musst Zahlen!")
             SpielerBank - 50
-            
+
 
         
 
